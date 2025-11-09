@@ -1,0 +1,11 @@
+[
+  {
+    "type":"function","name":"add_token","inputs":[{"name":"token","type":"address"}],"outputs":[]
+  },
+  {
+    "type":"function","name":"remove_token","inputs":[{"name":"token","type":"address"}],"outputs":[]
+  },
+  {
+    "type":"function","name":"get_watchlist","inputs":[{"name":"user","type":"address"}],"outputs":[{"type":"address[]"}],"stateMutability":"view"
+  }
+]
